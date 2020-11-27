@@ -1,0 +1,271 @@
+body{
+    font-family: Arial,sans-serif;
+    margin:0;
+    width: 1932px;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#central{
+    width: 1092px;
+    height: 100%;
+    margin-left: 420px;
+    margin-top: 200px;
+
+}
+
+#encart{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left:45px ;
+    display: inline-block;
+}
+
+#efimer{
+    position: absolute;
+    width: 540px;
+    height: 500px;
+    float: right;
+    top: 205px;
+    right: 420px;
+}
+
+#branding{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 60px;
+    top:0;
+}
+
+#efimerText{
+    position: absolute;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bold;;
+    margin-left: 195px;
+    margin-top: 65px;
+}
+
+#menu{
+    position: absolute;
+    margin-right: 45px;
+    margin-top:70px;
+    margin-left: 1800px;
+    display: inline-block;
+    left: 0;
+    right: 0;
+}
+
+#menu i{
+    display: inline-block;
+}
+
+#menuText{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+#share{
+    color: #9a9997;
+    margin-left: 30px;
+}
+
+#centralText{
+    width: 400px;
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 1000px;
+    top: 0;
+    left: 0;
+    color: #9a9997;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+#centralText span{
+    display: block;
+}
+
+#centralText a{
+    display: block;
+    text-decoration-line: none;
+    color: red;
+}
+
+#laine{
+    width: 500px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 950px ;
+}
+
+#fleur{
+    width: 500px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 950px ;
+}
+
+#bras{
+    width: 1080px;
+    height: 720px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 1650px ;
+    top: 0;
+}
+
+#tete{
+    width: 500px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 2450px ;
+    top: 0;
+}
+
+#lunette{
+    width: 500px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 2450px ;
+    top: 0;
+}
+
+#previous img{
+    width: 250px;
+    height: 260px;
+}
+
+#next img{
+    width: 180px;
+    height: 260px;
+}
+
+#previous a,#next a{
+    color: black;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+#previous{
+    width: 250px;
+    height: 260px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 2580px ;
+}
+
+#spanPrev{
+    display: inline-block;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 120px ;
+    left:0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span span{
+    display: block;
+}
+
+#works a{
+    color: black;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+}
+
+#works{
+    display: inline-block;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 2720px ;
+    left:0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#next{
+    width: 250px;
+    height: 260px;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 2580px ;
+    position: absolute;
+}
+
+#spanNext{
+    display: inline-block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 120px ;
+    left:0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#social i{
+    color: black;
+    text-decoration-line: none;
+    margin-right: 15px;
+    font-size:30px;
+}
+
+#social{
+    margin-left: 640px;
+    margin-top: 325px;
+}
+
+#copyright{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+#copyright a{
+    text-decoration-line: none;
+    color: red;
+}
+
+#copyrightText{
+    margin-left:75px ;
+}
+
+#copyrightLien{
+    margin-left: 68px;
+}
+
+#top{
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+}
+
+#top a{
+    text-decoration-line: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#top i{
+    margin-left: 45px;
+}

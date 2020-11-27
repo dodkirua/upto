@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 21</title>
+</head>
+<body>
+    <h1>Test formulaire</h1>
+    <form action="envoi.php" method="post">
+        <div>
+            <label for="text">Votre Texte</label>
+            <input type="text" id="text" name="Texte">
+        </div>
+        <div>
+            <label for="pass">Votre Mot de passe</label>
+            <input type="password" id="pass" name="Password">
+        </div>
+        <div>
+            <label for="date">La date du méfait</label>
+            <input type="date" id="date" name="Date">
+        </div>
+        <div>
+            <label for="color">Choisir la couleur</label>
+            <input type="color" id="color" name="Couleur">
+        </div>
+        <div>
+            <label for="select"></label>
+            <select id="select" name="Selection" size="10">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="Radio" value="Homme"> Homme
+            <input type="radio" name="Radio" value="Femme"> Femme
+            <input type="radio" name="Radio" value="Amaury"> Amaury
+        </div>
+        <div>
+            <label for="sortir">Sortir</label>
+            <input type="checkbox" id="sortir" name="Sortir">
+            <label for="rentrer">Rentrer</label>
+            <input type="checkbox" id="rentrer" name="Rentrer">
+            <label for="dormir">Dormir</label>
+            <input type="checkbox" id="dormir" name="Dormir">
+        </div>
+        <div>
+            <label for="reset">Reset</label>
+            <input type="reset" id="reset" name="Reset">
+        </div>
+
+        <button type="submit" name="valide">Envoyer</button>
+    </form>
+</body>
+</html>

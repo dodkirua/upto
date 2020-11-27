@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+#barreHaut{
+    background-color: #e60012;
+    height: 55px;
+    width: 100%;
+    position: relative;
+}
+
+#gaucheBarreHaut{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+
+}
+
+#gaucheBarreHaut img{
+    width: 120px;
+    height: 40px;
+}
+
+#droitBarreHaut div{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#droitBarreHaut a{
+    text-decoration-line: none;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+
+}
+
+#droitBarreHaut a span{
+    position: relative;
+    display: inline-block;
+    bottom: 11px;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+#droitBarreHaut img{
+    width: auto;
+    height: 30px;
+}
+
+#droitBarreHaut{
+    float: right;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+#barreGauche{
+    background-color: #bf0010;
+    width: 66px;
+    height: 100%;
+    position: fixed;
+}
+
+.lienBarreGauche{
+    background-color: #e60012;
+
+    border-radius: 0 15px 0 0;
+    border-width: 3px;
+    border-color: #e60012;
+}
+
+.lienBarreGauche:hover{
+    background-color: #d10000;
+
+    border-radius: 0 15px 0 0;
+    border-width: 3px;
+    border-color: #e60012;
+}
+
+.lienBarreGauche img{
+    width: 40px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.lienBarreGauche p{
+    margin: 0;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.lienBarreGauche i {
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+.lienBarreGauche span{
+    display: block;
+}
+
+#communauty{
+    width: 100%;
+    height: 38px;
+}
+
+.lienBarreGauche a{
+    color: white;
+}
+
+.blanc{
+    border: white solid 1px;
+    height: 25px;
+}
+
+.fa-search{
+    color: white;
+    transform: rotatey(180deg);
+    font-size: 20px;
+}
+
+.fa-users{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#search{
+    position: relative;
+    bottom: 5px;
+}
+
+#dot{
+    height: 38px;
+}
+#dot p{
+    font-size: 20px;
+    font-weight: bolder;
+}

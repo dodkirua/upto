@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 90%;
+    height: 90%;
+    margin: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo{
+    background-color: white;
+    text-transform: uppercase;
+    color: #808080;
+}
+header div{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 2rem;
+}
+#logo,.link{
+    width: 18%;
+}
+
+.link a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+section, nav{
+   ;background-color: #eeeeee;
+    border: 1px black solid;
+    flex-grow: 0;
+}
+header,footer{
+    background-color: #808080;
+}
+
+#corp{
+    width: 100%;
+    height:80% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+#titre{
+    width: 100%;
+    height: 15%;
+    font-size:4rem;
+    text-transform: uppercase;
+    color: #808080;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+nav{
+    width: 25%;
+    height: 80%;
+
+}
+
+.sousTitre{
+    width: 100%;
+    height: 15%;
+    font-size: 2rem;
+    justify-self: center;
+    align-self: center;
+
+}
+
+nav,section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+section{
+    width: 60%;
+
+}
+
+article{
+    width: 30%;
+    height: 20vh;
+    background-color: #c6c6c6;
+    border: 1px black solid;
+}
+
+footer{
+    width: 100%;
+    height:5% ;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

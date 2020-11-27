@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration-line: none;
+}
+#menu{
+    background-color: #333333;
+    font-family: Arial, sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 10px;
+}
+
+#menu a{
+    color: #d6d6d6;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+}
+li{
+    display: inline;
+    margin-right: 5%;
+}
+.fa-apple,.fa-search,.fa-shopping-bag{
+    font-size: 15px;
+}

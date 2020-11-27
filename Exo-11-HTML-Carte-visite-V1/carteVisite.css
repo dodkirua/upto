@@ -1,0 +1,40 @@
+body{
+    margin: 5px;
+    padding:0;
+    width: auto;
+
+}
+
+#container{
+    width: 400px;
+    height: 200px;
+    background-image: url("img/piAt.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    position:relative;
+    border: 1px solid black;
+}
+
+#imgDroit img{
+    display: inline-block;
+    height: 100px;
+    width: 90px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+h1{
+    padding-left: 25px;
+    text-shadow: black 1px 1px 2px;
+}
+
+#text{
+    margin:auto;
+    text-align: left;
+    opacity: 1;
+}
+
+ul{
+    list-style-type: none;
+}

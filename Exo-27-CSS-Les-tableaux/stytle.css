@@ -1,0 +1,46 @@
+#tableau1{
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+#tableau2{
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+#tableau3{
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+#tableau4{
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+th{
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+}
+tr{
+
+    border: 1px solid black;
+}
+td{
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.ligne1,.ligne3,.ligne5,.ligne7,.ligne9{
+   text-transform: uppercase;
+}
+
+.ligne2,.ligne4,.ligne6,.ligne8,.ligne10{
+    background-color: lightgreen;
+}

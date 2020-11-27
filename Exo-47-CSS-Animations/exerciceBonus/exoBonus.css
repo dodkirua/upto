@@ -1,0 +1,149 @@
+
+
+#rect {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+
+
+}
+
+#roue1 {
+    display: inline-block;
+
+    position: relative;
+     width: 50px;
+     height: 50px;
+     left: 10px;
+     border-radius: 100%;
+     border-style: dashed;
+     background-color: blue;
+     animation-name: rotation-roue;
+     animation-duration: 10s;
+}
+
+#roue2 {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 80px;
+    border-radius: 100%;
+    border-style: dashed;
+    background-color: blue;
+    animation-name: rotation-roue;
+    animation-duration: 10s;
+}
+
+
+#voiture {
+    top: 150px;
+    position: absolute;
+    animation-name: direction-voiture;
+    animation-duration: 10s;
+}
+
+
+@keyframes direction-voiture {
+    to{
+        transform: translateX(1900px);
+    }
+}
+
+@keyframes rotation-roue {
+    0%{
+       transform: rotate(60deg);
+    }
+    5%{
+        transform: rotate(120deg);
+    }
+    10%{
+        transform: rotate(180deg);
+    }
+    15%{
+        transform: rotate(240deg);
+    }
+    20%{
+        transform: rotate(300deg);
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    30%{
+        transform: rotate(60deg);
+    }
+    35%{
+        transform: rotate(120deg);
+    }
+    40%{
+        transform: rotate(180deg);
+    }
+    45%{
+        transform: rotate(240deg);
+    }
+    50%{
+        transform: rotate(300deg);
+    }
+}
+
+
+#ciel {
+    position: absolute;
+    background-color: aqua;
+    width: 2000px;
+    height: 300px;
+}
+
+#n1 {
+    top: 0;
+    left: 20px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+#n2 {
+    top: 25px;
+    left: 0;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#n3 {
+    top: 25px;
+    left: 50px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#n4 {
+    top: 50px;
+    left:30px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#nuage {
+    position: absolute;
+    animation-name: nuage;
+    animation-duration: 20s;
+}
+
+
+
+@keyframes nuage {
+    to{
+        transform: translateX(1900px);
+    }
+}

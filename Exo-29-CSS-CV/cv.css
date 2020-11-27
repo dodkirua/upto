@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+body{
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+}
+#entete,h2{
+    background-color: #01AEFF;
+}
+
+#entete{
+    width: 100%;
+    display: inline-block;
+}
+
+th{
+    text-align: left;
+}
+
+tr{
+    margin-bottom: 5px;
+}
+
+td{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.ligne2{
+    column-span: all;
+}
+
+#blocPrincipal{
+    width: 100%;
+    height: 100%;
+}
+
+#blocPrincipal{
+    position: relative;
+}
+
+#colonneCursus{
+    width: 72%;
+    height: 100%;
+    /*margin-right: 25%;*/
+    position: relative;
+}
+
+#colonneInfo{
+    width: 24%;
+    height: 100%;
+   /* margin-left: 75%;*/
+    font-size: small;
+    background-color: #05156F;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

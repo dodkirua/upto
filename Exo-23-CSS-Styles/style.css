@@ -1,0 +1,28 @@
+
+body {
+    font-family: helvetica,Arial,SansSerif;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+h1{
+    font-family: helvetica,Arial,Serif;
+    font-size: 18px;
+    color: #454545;
+    font-weight: bold;
+}
+
+p{
+    color:#8870ff;
+    margin: 10px;
+    padding: 15px;
+}
+
+blockquote{
+    font-style: italic ;
+    font-size: 15px;
+    background-color: #444;
+    color: #e7f2fa;
+}
+
+.lien{color: #8870ff}

@@ -1,0 +1,55 @@
+div  div{
+    width: 200px;
+    height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    border: 1px solid black;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.impair{
+    width: 100%;
+
+}
+
+.pair{
+    width: 70%;
+}
+
+.cadre-div{
+    border-color: blue;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 17px;
+    box-shadow: 4px 8px cadetblue inset, 4px 8px cadetblue;
+}
+
+.cadre-div2{
+    border-color: orange;
+    border-width: 1px;
+    border-style: dot-dot-dash;
+    border-radius: 9px;
+    box-shadow: 2px 8px lightgreen inset;
+}
+
+.cadre-div3{
+    border-color: red;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 33px;
+    box-shadow: 7px 5px grey;
+}
+.cadre-div4{
+    border-color: red;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 33px;
+    box-shadow: 7px 5px grey;
+    background-image: url("img/japon4.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}

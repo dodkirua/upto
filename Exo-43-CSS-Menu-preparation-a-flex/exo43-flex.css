@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 90%;
+    height: 90%;
+    padding: 5vh 5vw;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    background-image: url("img/paysageBanniere.jpg");
+    background-size: cover;
+}
+
+#menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.link a{
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: black;
+    text-shadow: white 2px 2px 2px;
+}
+
+.link{
+    background-image: url("img/paysageLien.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 16.6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkContain{
+    width: 100%;
+}

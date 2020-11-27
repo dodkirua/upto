@@ -1,0 +1,97 @@
+#salle{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.bureau{
+    background-image: url("img/bureau.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block;
+
+}
+
+
+#rangeFond{
+    position: absolute;
+    min-width: 60%;
+    min-height: 20%;
+    left: 20%;
+
+
+}
+#rangeGauche{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    top: 20%;
+}
+
+#rangeGauche div{
+    transform: rotate(270deg)
+}
+
+#rangeDroite{
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    left: 60%;
+}
+
+#rangeDroite div{
+    transform: rotate(90deg)
+}
+
+#uDroite{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    top: 50%;
+    left:40%;
+}
+#uDroite div{
+    transform: rotate(270deg)
+}
+
+#uFond{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:30%;
+    left:25%;
+}
+#uFond div{
+    transform: rotate(180deg)
+}
+
+#uGauche{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 20%;
+    top: 50%;
+}
+#uGauche div{
+    transform: rotate(270deg)
+}
+
+#pupitre{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    top: 100%;
+}
+p{
+    text-align: center;
+    padding-top: 50px;
+
+}
+#uFond p{
+    transform: rotate(180deg);
+    padding-top: 0;
+    padding-bottom: 50px;
+}

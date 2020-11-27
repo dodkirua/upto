@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9ec63d1-2bd2-4138-9baf-2ea8e71c07fb" name="Default Changelist" comment="100% width a partir de 600" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k0ZbmdHHBTuw3JCpA9Kr8hXgZE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liveResponsive" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9ec63d1-2bd2-4138-9baf-2ea8e71c07fb" name="Default Changelist" comment="" />
+      <created>1604839542705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604839542705</updated>
+      <workItem from="1604839543840" duration="620000" />
+      <workItem from="1604861024269" duration="2598000" />
+      <workItem from="1604916596750" duration="110000" />
+      <workItem from="1604936170303" duration="720000" />
+      <workItem from="1605003639205" duration="261000" />
+      <workItem from="1605016197980" duration="1916000" />
+      <workItem from="1605167643663" duration="1865000" />
+      <workItem from="1605176892087" duration="6412000" />
+      <workItem from="1605187886583" duration="1688000" />
+      <workItem from="1605255629654" duration="12953000" />
+      <workItem from="1605513876176" duration="120000" />
+      <workItem from="1605514455513" duration="8206000" />
+      <workItem from="1605528866292" duration="104000" />
+      <workItem from="1605529341117" duration="198000" />
+      <workItem from="1605529562272" duration="72000" />
+      <workItem from="1605529859705" duration="24000" />
+      <workItem from="1605529986109" duration="12000" />
+      <workItem from="1605530073357" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="exercice finis">
+      <created>1605259195753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259195753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="eval responsive finis">
+      <created>1605520363795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605520363795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="100% width a partir de 600">
+      <created>1605521382096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605521382096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercice finis" />
+    <MESSAGE value="eval responsive finis" />
+    <MESSAGE value="100% width a partir de 600" />
+    <option name="LAST_COMMIT_MESSAGE" value="100% width a partir de 600" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="0" width="819" height="728" key="#HTML" timestamp="1605274351213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="0" width="819" height="728" key="#HTML/0.0.1366.728/-1920.-323.1920.1040@0.0.1366.728" timestamp="1605274351213" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1605268337175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-323.1920.1040@0.0.1366.728" timestamp="1605268337175" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1605268573471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1920.-323.1920.1040@0.0.1366.728" timestamp="1605268573471" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605517743695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728/-1920.-323.1920.1040@0.0.1366.728" timestamp="1605517743695" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1605521386024">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-323.1920.1040@0.0.1366.728" timestamp="1605521386024" />
+  </component>
+</project>

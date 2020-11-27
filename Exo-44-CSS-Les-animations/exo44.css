@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 20%;
+    height: 20%;
+    margin: 5vh 5vw;
+    font-size: 1rem;
+    background-color: darkorange;
+    border: black 2px solid;
+    animation-name: animation, translate, rotate;
+    animation-duration: 10s,4s,3s;
+    animation-delay: 0s,10s,4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+@keyframes animation {
+    0% {
+        font-size: 1rem;
+        width: 20%;
+        height: 20%;
+        background-color: darkorange;
+    }
+
+    25% {
+        margin: 10vh 10vw;
+    }
+
+    75%{
+        font-size: 10rem;
+        width: 90%;
+        height: 90%;
+        background-color: blueviolet;
+    }
+}
+
+@keyframes translate {
+    from{
+        transform: translateX(-5vw);
+    }
+
+    to{
+        transform: translateX(80vw);
+    }
+}
+
+@keyframes rotate {
+    from{
+        transform-origin: center center;
+        transform: rotate(180deg) scale(-0.5);
+        font-size: 1rem;
+    }
+
+    to{
+        transform: rotate(90deg) scale(1.5);
+        font-size: 10rem;
+    }
+}
+
+div:hover,div:active{
+    animation-play-state: paused;
+}

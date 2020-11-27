@@ -1,0 +1,48 @@
+body{
+    color: coral;
+}
+
+a{
+    text-decoration: none;
+    color :green;
+    padding-top: 0;
+    vertical-align: sub;
+}
+
+p{
+    margin: 15px;
+    padding: 20px;
+    text-indent: 50px;
+}
+
+.shadow{
+    text-shadow: 1px 1px 2px black;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+.cadre{
+    border:1px solid black;
+    width:500px;
+    height: 300px;
+}
+ul{
+    list-style-type: georgian;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url("img/japon2.jpeg");
+    background-size: cover;
+    margin-left: auto;
+}
+
+a:hover{
+    cursor: hand;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+}
+
+table{
+    margin-left: 10rem;
+    margin-top: 10rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-decoration-line: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+caption a:first-child{
+    vertical-align: super;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+thead{
+   font-size: 1.2rem;
+}
+
+thead th{
+    background-color: #eaecf0;
+}
+
+th{
+    border: 1px solid black;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.thColor{
+    height: 0.5rem;
+}
+
+td{
+    border: 1px solid black;
+    height: 2rem;
+    text-align: center;
+}
+
+.textRed{
+    color: red;
+}
+
+#colorBiden{
+    background-color:#00a4e4 ;
+}
+
+#colorRepublicain{
+    background-color:#dc241f;
+}
+
+#colorAmericain{
+    background-color:#800080;
+}
+
+#colorProhibition{
+    background-color:#ff00ff;
+}
+
+#colorLibertarien{
+    background-color:#fed105;
+}

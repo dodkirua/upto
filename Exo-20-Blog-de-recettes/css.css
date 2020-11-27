@@ -1,0 +1,59 @@
+
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: sans-serif;
+    border: 1px black solid;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+table{
+    border: 1px solid black;
+    margin-left: 280px;
+}
+
+th{
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+td{  border: 1px solid black;
+}
+
+.liste{
+    margin-bottom: 10px;
+}
+
+img{
+    height: 250px;
+    width: auto;
+    margin-bottom: 1px;
+}
+
+.form{
+    border: 1px solid black;
+    display: block;
+    position: relative;
+}
+
+.elementGauche{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.elementDroit {
+    position: absolute;
+    left:20%;
+    transform: translateX(-50%);
+}

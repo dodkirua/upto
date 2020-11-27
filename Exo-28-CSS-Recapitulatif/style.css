@@ -1,0 +1,28 @@
+#para1{
+    color: blue;
+}
+
+#para2{
+    font-family: "Courier New",sans-serif ;
+}
+
+#para3{
+    text-align: center;
+}
+
+#para4{
+    font-size: 50px;
+}
+
+#div1{
+   background-color: yellow; 
+}
+
+#para6{
+    text-align: center;
+}
+
+#div3{
+    border: 1px solid blue;
+    min-height: 200px;
+}
