@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#compte{
+    height: 10%;
+    width: 10%;
+    background-color: grey;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
